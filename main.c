@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(void) {
-    printf("Hello, World!\n");
-    return 0;
-}
-rter med at spørge brugeren hvor mange sekunder der skal omregnes
+    int sekunder;
+
+    // Starter med at spørge brugeren hvor mange sekunder der skal omregnes
     printf("Hvor mange sekunder vil du gerne omregne?");
     scanf("%d", &sekunder);
 
